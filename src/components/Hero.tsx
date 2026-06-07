@@ -131,7 +131,7 @@ export default function Hero() {
             <div className="relative w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full bg-gradient-to-br from-zinc-900 to-zinc-800 border border-white/8 flex items-center justify-center overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/profile.jpg"
+                src="/sharduls_resume/profile.jpg"
                 alt="Shardul Anaspure"
                 className="w-full h-full object-cover"
                 style={{ objectPosition: "center 45%" }}
