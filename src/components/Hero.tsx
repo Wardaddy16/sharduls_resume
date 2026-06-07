@@ -31,9 +31,9 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative max-w-6xl mx-auto w-full grid md:grid-cols-5 gap-12 items-center">
-        {/* Left: Text — 3 cols */}
-        <div className="md:col-span-3">
+      <div className="relative max-w-6xl mx-auto w-full grid md:grid-cols-5 gap-8 md:gap-12 items-center">
+        {/* Left: Text — 3 cols (appears second on mobile via order) */}
+        <div className="md:col-span-3 order-2 md:order-1">
           <motion.p
             {...fadeUp(0)}
             className="text-emerald-500 text-xs font-mono tracking-[0.25em] uppercase mb-5"
@@ -120,7 +120,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.88 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
-          className="md:col-span-2 flex justify-center md:justify-end"
+          className="md:col-span-2 order-1 md:order-2 flex justify-center md:justify-end"
         >
           <div className="relative">
             {/* Glow */}
