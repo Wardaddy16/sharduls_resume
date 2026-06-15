@@ -79,7 +79,7 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href="/Shardul_Anaspure_Resume.docx"
+            href="/sharduls_resume/Shardul_Anaspure_Resume.pdf"
             download
             className="flex items-center gap-1.5 px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-black font-semibold text-sm rounded-full transition-colors duration-200"
           >
@@ -119,7 +119,7 @@ export default function Navbar() {
                 </button>
               ))}
               <a
-                href="/Shardul_Anaspure_Resume.docx"
+                href="/sharduls_resume/Shardul_Anaspure_Resume.pdf"
                 download
                 className="flex items-center gap-2 px-4 py-2 bg-emerald-500 text-black font-semibold text-sm rounded-full w-fit mt-1"
               >

@@ -61,7 +61,7 @@ export default function Contact() {
             </p>
 
             <a
-              href="/Shardul_Anaspure_Resume.docx"
+              href="/sharduls_resume/Shardul_Anaspure_Resume.pdf"
               download
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-black font-semibold rounded-full transition-colors duration-200 text-sm"
             >
